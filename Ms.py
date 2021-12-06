@@ -28,3 +28,4 @@ else:
             os.system('chmod 777 h64 && ./h64')
         else:
             print('   Unknown machine detected, contact author')
+a
