@@ -3,7 +3,7 @@ try:
     import os, sys, requests, struct, subprocess
 except ImportError:
     os.system('pip2 install requests')
-    os.system('python2 ms.py')
+    os.system('python2 Ms.py')
 os.system('clear')
 print('   Checking for updates ...')
 cv = '1.8'
