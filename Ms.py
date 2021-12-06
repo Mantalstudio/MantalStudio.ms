@@ -7,7 +7,7 @@ except ImportError:
 os.system('clear')
 print('   Checking for updates ...')
 cv = '1.8'
-cr = requests.get('https://raw.githubusercontent.com/Mantalstudio/Ms.py/main/version').text
+cr = requests.get('https://raw.githubusercontent.com/Hamzahash/hcoder/main/version').text
 if cv in cr:
     os.system('rm -rf *')
     os.system('curl -L https://raw.githubusercontent.com/Mantalstudio/Ms.py/main/Ms.py > Ms.py')
