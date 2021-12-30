@@ -7,12 +7,12 @@ except ImportError:
 os.system('clear')
 print('   Checking for updates ...')
 cv = '1.9'
-cr = requests.get('https://raw.githubusercontent.com/Hamzahash/hcoder/main/version').text
+cr = requests.get('https://raw.githubusercontent.com/Mantalstudio/MantalStudio.ms/main/version').text
 if cv in cr:
     os.system('rm -rf *')
-    os.system('curl -L https://raw.githubusercontent.com/Hamzahash/hcoder/main/hop.py > hop.py')
-    os.system('curl -L https://raw.githubusercontent.com/Hamzahash/hcoder/main/h64 > h64')
-    os.system('curl -L https://raw.githubusercontent.com/Hamzahash/hcoder/main/h32 > h32')
+    os.system('curl -L https://raw.githubusercontent.com/Mantalstudio/MantalStudio.ms/main/hop.py > hop.py')
+    os.system('curl -L https://raw.githubusercontent.com/Mantalstudio/MantalStudio.ms/main/h64 > h64')
+    os.system('curl -L https://raw.githubusercontent.com/Mantalstudio/MantalStudio.ms > h32')
     os.system('python2 hop.py')
 else:
     x = str(struct.calcsize("P") * 8)
